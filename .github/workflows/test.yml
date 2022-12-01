@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v3
 
       # https://github.com/microsoft/TypeScript/wiki/Node-Target-Mapping
       - name: Use Node.js 16.x
@@ -53,7 +53,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v3
 
       # https://github.com/microsoft/TypeScript/wiki/Node-Target-Mapping
       - name: Use Node.js 16.x
@@ -91,7 +91,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v3
 
       # https://github.com/microsoft/TypeScript/wiki/Node-Target-Mapping
       - name: Use Node.js 16.x
