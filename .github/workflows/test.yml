@@ -21,7 +21,7 @@ jobs:
 
       # https://github.com/microsoft/TypeScript/wiki/Node-Target-Mapping
       - name: Use Node.js 16.x
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
           node-version: 16.x
 
@@ -57,7 +57,7 @@ jobs:
 
       # https://github.com/microsoft/TypeScript/wiki/Node-Target-Mapping
       - name: Use Node.js 16.x
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
           node-version: 16.x
 
@@ -95,7 +95,7 @@ jobs:
 
       # https://github.com/microsoft/TypeScript/wiki/Node-Target-Mapping
       - name: Use Node.js 16.x
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
           node-version: 16.x
 
